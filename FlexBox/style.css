@@ -1,0 +1,44 @@
+h1{
+    border: 2px solid red;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.Parent {
+    border: 10px solid red;
+    height: 700px;
+    display: flex;
+    /* justify-content:space-around ; */
+     /* justify-content: space-between;  */
+     justify-content: center;
+    /* justify-content: space-evenly;*/
+      /* flex-wrap: wrap; */
+    align-items: center; 
+     align-content: space-around;  
+
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+     
+}
+
+.class {
+    height: 100px;
+    width: 100px;
+}
+
+#one {
+    background-color: aqua;
+}
+#two {
+    background-color: rgb(64, 0, 255);
+}
+#three {
+    background-color: rgb(255, 0, 93);
+}
+#four {
+    background-color: rgb(255, 98, 0);
+}

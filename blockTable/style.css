@@ -1,0 +1,113 @@
+ /* .one {
+    border: 10px solid green;
+    width: 200px;
+    height: 200px;
+    padding: 7px;
+    margin-bottom: 3px;
+
+}
+
+.one{
+    border-radius: 20px;
+} */
+
+ /* div  {
+    background-color: aqua;
+} */
+
+ /* div{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+} */
+
+ /* span {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    /* work as inline block and it also have inline property */
+ /* display: inline-block */
+ /* when we want to display inline to block we put display: block; */
+ /* display: block;
+        /* display: none; */
+ /* visibility: hidden
+         */
+ /* div{
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+    }
+
+    div:nth-of-type(1){
+        background-color: red;
+        position: relative;
+        top: 50px;
+    }
+
+    div:nth-of-type(2){
+        background-color: green;
+        position: absolute;
+        top: 50px;
+    } 
+    
+    div:nth-of-type(3){
+        background-color: blue;
+    
+    } */
+
+ /* div{
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        background-color: brown;
+    } */
+
+
+ /* div:nth-last-child(1){
+        background-color: red;
+        top: 8px; by default hota hai
+        position: fixed;
+    } */
+
+
+ /* .container{
+        height: 2000px;
+        border: 10px solid green;
+        padding: 100px;
+    }
+
+    .box{
+        border: 2px solid red;
+        padding: 10px;
+        background-color: greenyellow;
+        position: sticky;
+        top: 30px;
+        transition: 3s;
+    }
+
+    .box:hover {
+        background-color: blue;
+        border-radius: 30%;
+    }
+
+    .box{
+        text-align: center;
+    } */
+
+ .parent {
+     height: 300px;
+     width: 300px;
+     background-color: green;
+     position: relative;
+ }
+
+ .child{
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     top: 15px;
+     /* background-color: rgb(200, 98, 70); */
+     /* background-color: #ff7180;   HEX code */
+     /* background-color: hsl(140, 41%, 47%);  */
+     /* background-color: rgba(107 , 26 , 26 ,0.35); a stand for Alpha */
+ }

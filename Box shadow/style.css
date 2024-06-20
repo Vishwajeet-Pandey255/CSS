@@ -1,0 +1,15 @@
+#me{
+    box-shadow: 20px 20px 30px red;
+}
+
+
+
+#me{
+    filter: drop-shadow(20px 20px 30px red);
+    /* filter: brightness(150%); */
+    /* filter: saturate(0); */
+    /* filter:sepia(10000); */
+    /* filter: invert(); */
+    /* filter: grayscale(); */
+    /* filter: contrast(40); */
+}
