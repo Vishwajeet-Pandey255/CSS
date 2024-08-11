@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    margin-top: 20%;
+
+}
+
+#road{
+    height: 150px;
+    width: 100vw;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bus{
+    height: 100px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: orangered;
+    animation-name: new;
+    animation-duration: 10s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+
+@keyframes new {
+
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+
+    
+}
+
+#one{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 80px;
+
+}

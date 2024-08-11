@@ -1,0 +1,39 @@
+.Container{
+    height: 700px;
+    border: 2px solid red;
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    /* padding: 200px; */
+    /* margin: 200px; */
+    /* grid-column-end: 400px; */
+}
+
+/* .Parent{
+    display: grid;
+} */
+
+
+.grid-item{
+    height: 100px;
+    width: 100px;
+}
+
+#one{
+    background-color: aqua;
+    /* grid-template: min-content; */
+    /* grid-column: 1/5; */
+    /* grid-row: 1/4; */
+    /* grid-column: 1/span3; */
+}
+
+#two{
+    background-color: rgb(30, 0, 255);
+}
+#three{
+    background-color: rgb(195, 255, 0);
+}
+
+#four{
+    background-color: rgb(255, 128, 0);
+}

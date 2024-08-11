@@ -1,0 +1,48 @@
+.Parent{
+    height: 700px;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+}
+
+#one{
+    background-color: aqua;
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* order: 1; */
+    /* align-self: flex-end; */
+}
+
+#two{
+    background-color: rgb(68, 0, 255);
+    /* flex-grow: 2; */
+    /* flex-shrink: 4; */
+    /* order: 1; */
+    /* align-self: center; */
+}
+#three{
+    background-color: rgb(75, 30, 16);
+    /* flex-grow: 2; */
+    /* order: ; */
+   /* align-self: flex-end;     */
+
+}
+#four{
+    background-color: rgb(200, 255, 0);
+    /* flex-grow: 2; */
+}
+
+
+p{
+    /* width: 400px; */
+    /* max-width: 400px; */
+    min-width: 50px;
+}

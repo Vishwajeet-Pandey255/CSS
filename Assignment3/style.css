@@ -1,0 +1,102 @@
+.navbar{
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innernavbar{
+    color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+#img1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.strong{
+    text-align: center;
+}
+
+.me{
+ /* display: flex; */
+ /* display: inline-block; */
+ display: inline;
+ /* display: block; */
+}
+
+progress{
+    border: 1px solid green;
+    height: 6px;
+    width:full;
+    border-radius: 2px 2px 2px 2px;
+
+}
+
+progress::-webkit-progress-bar{
+    background-color: whitesmoke;
+
+}
+
+progress::-webkit-progress-value{
+    background-color: green;
+}
+
+
+.progress{
+    display: flex;
+}
+
+.ContactInfo{
+    margin-left: 200px;
+}
+
+
+footer{
+    background-color: black;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width:480px){
+
+/* *{
+    margin-right: 200px;
+} */
+
+.navbar{
+    padding-top: 10px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+}
+
+.progress{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactInfo{
+    margin:23px;
+    
+}
+
+*{
+    margin-right: 20px;
+}
+
+}

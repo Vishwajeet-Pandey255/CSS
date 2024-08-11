@@ -1,0 +1,37 @@
+.Parent{
+    border: 2px solid red;
+    height: 500px;
+
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    transition: 4s;
+    transition-delay: 2s;
+    /* transition-timing-function: ; */
+
+}
+
+#one{
+    background-color: aqua;
+    /* transition: 2s; */
+    transition-timing-function: ease-in;
+}
+
+#two{
+    background-color: rgb(255, 106, 0);
+    transition-timing-function: ease-in-out;
+}
+#three{
+    background-color: rgb(34, 0, 255);
+    transition-timing-function: linear;
+}
+#four{
+    background-color: rgb(255, 0, 0);
+    transition-timing-function: ease-out;
+}
+
+.Parent:hover .child{
+    margin-left: 1108px;
+}

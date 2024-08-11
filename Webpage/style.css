@@ -1,0 +1,66 @@
+#welcome{
+    height: 100px;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    /* animation-name: new;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; */
+
+    animation: new 3s ease-out infinite;
+    
+}
+
+@keyframes new {
+
+    0%{
+        /* height: 0px;
+        width: 100vw; */
+        transform: translateY(-100px);
+    }
+    100%{
+        /* height: 100px;
+        width: 100vw; */
+        transform: translateY(1px);
+    }
+    
+}
+
+#white{
+    color: white;
+}
+#navbar{
+    height: 30px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#nav{
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Vishu{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: black;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+color: beige;
+padding: 5px;
+}

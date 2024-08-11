@@ -1,0 +1,29 @@
+#parent{
+    display: flex;
+    justify-content: center;
+}
+
+#ball{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(blue , red , blue);
+    border-radius: 50%;
+    border: 5px solid black;
+    animation: new 1500ms ease-in infinite alternate;
+    /* animation-name: new;
+    animation-duration: 1500ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative; */
+}
+
+@keyframes new{
+    from{
+        transform: translateY(0px) ;
+    }
+   to{
+    transform: translateY(50vh) rotate(360deg);
+   }
+    
+}

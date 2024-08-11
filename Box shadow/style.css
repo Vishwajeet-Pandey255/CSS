@@ -1,11 +1,15 @@
-#me{
+/* #me{
+box    border-radius: 50%;
     box-shadow: 20px 20px 30px red;
-}
+} */
 
 
 
-#me{
-    filter: drop-shadow(20px 20px 30px red);
+ #me{
+    
+    /* filter: drop-shadow(-20px 20px 30px red); */
+    /* backdrop-filter: 20px 20px 20px gold; */
+
     /* filter: brightness(150%); */
     /* filter: saturate(0); */
     /* filter:sepia(10000); */

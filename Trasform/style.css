@@ -1,0 +1,38 @@
+div{
+    margin-left: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+}
+
+#one{
+    height: 150px;
+    width: 150px;
+    
+}
+
+div:hover{
+    transition: rotatey(180deg);
+}
+
+div:hover{
+    /* transform: translatex(200px); */
+    /* transform: translatey(200px); */
+    /* transform: translate(200px,200px); */
+
+    transform: rotatey(180deg);
+    background-color: gray;
+    /* transform: rotatey(180deg); */
+
+    /* transform: scaleX(2); */
+    /* transform: scaley(2); */
+    /* transform: scale(2,3); */
+
+
+
+
+    
+}

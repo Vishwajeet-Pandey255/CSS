@@ -1,0 +1,14 @@
+.parent{
+    height: 90vh;
+    border: 2px solid green;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 200px 200px 200px;
+ 
+}
+
+/* .child{
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 100px 100px 100px;
+    
+} */

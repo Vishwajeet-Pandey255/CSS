@@ -1,0 +1,36 @@
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons{
+    display: flex;
+    margin: 50vh;
+    gap: 100px;
+    height: 100px;
+}
+
+
+a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background 0.3s, transform 0.3s;
+
+}
+
+a:hover{
+    background: linear-gradient(135deg, #6a00e0, #8e2de2);
+    transform: scale(1.1);
+}

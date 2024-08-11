@@ -1,0 +1,71 @@
+#welcome{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    font-style: initial;
+    font-family: 'Times new Roman' , monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#Mycat{
+    height: 600px;
+    width: 100vw;
+}
+
+#navbar{
+    height: 50px;
+    width: 100vw;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+}
+#nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: sticky;
+
+}
+
+
+/* #cat{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+
+#img{
+    border: 2px sold black;
+}
+
+#button{
+    background-color:  rgb(87, 87, 218);
+    color: white;
+}
+
+#space{
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#img{
+    margin-top: 50px;
+    margin: 20px;
+    height: auto;
+    width: 300px;
+    border: 1px solid gray;
+}
+
